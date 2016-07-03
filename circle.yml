@@ -1,0 +1,10 @@
+machine:
+  python:
+    version: 3.4.2
+
+test:
+  pre:
+    - pip install pylint
+    - pip install paho-mqtt
+  post:
+    - pylint relay_out.py --rcfile=.config/pylintrc
