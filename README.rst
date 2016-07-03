@@ -1,6 +1,7 @@
 =============
 znc-relay-out
 =============
+.. image:: https://circleci.com/gh/nerdfarm/znc-relay-out.svg?style=shield&circle-token=bf98652abc0adcbf2b423f50d33b23dae20ed1ef
 ``znc-relay-out`` is a Python ZNC module for passing IRC messages to mosquitto.
 
 Intended for use with `obs <https://github.com/nerdfarm/obs>`_, a service for `mosquitto <http://mosquitto.org>`_ messages to Google Hangouts
